@@ -25,3 +25,7 @@ function changeColor() {
 	var color = document.getElementById('color').value;
 	document.body.style.background = color;
 }
+
+function hideAll() {
+	document.body.style.display = 'none';
+}
